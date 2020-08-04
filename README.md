@@ -10,17 +10,13 @@ Though this package can be easily configured to operate on any data/scripts, it 
 
 Graphic overview of data flow
 
-#### `aws_setup.sh`
-
-Shell script that installs dependencies onto launched EC2. Note: this is included for informational purposes; most customers will use the following AMI with dependencies included: 
-
 #### `lambda_function.py`
 
 Lambda function that is triggered by file-drop: launches instance, downloads scripts/data, deletes CSV file from s3, and terminates instance
 
-#### `process_file.py`
+#### `FUTURE_UPDATES.md`
 
-processes a single file given `filename.csv` as command-line ar
+Backlog of features in the pipeline as we continue improving this workflow
 
 # Setup
 
