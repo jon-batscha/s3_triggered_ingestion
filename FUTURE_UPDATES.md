@@ -1,7 +1,7 @@
 # Future Updates
 
-- add improved logging in python, save logs natively to AWS
+- adding improved logging in python, to be saved natively in AWS
 
-- when launching EC2, give it a name
+- Launched EC2's will be named
 
-- convert to cloudformation
+- Converting package into a CloudFormation
