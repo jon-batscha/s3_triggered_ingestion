@@ -8,15 +8,11 @@ Though this package can be easily configured to operate on any data/scripts, it 
 
 #### `architecture.png`
 
-Graphic overview of data flow
+Visual overview of data flow
 
 #### `lambda_function.py`
 
 Lambda function that is triggered by file-drop: launches instance, downloads scripts/data, deletes CSV file from s3, and terminates instance
-
-#### `FUTURE_UPDATES.md`
-
-Backlog of features in the pipeline as we continue improving this workflow
 
 # Setup
 
@@ -33,6 +29,7 @@ This package assumes the following components + policies:
 - EC2 Role:
 	- The lambda launches an EC2 with a role determined by you. This role needs policies to:
 		- read/write from Lambda's trigger S3 bucket
+		- terminate itself
 
 ## Configure Components
 
