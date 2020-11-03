@@ -6,7 +6,7 @@ def lambda_handler(event, context):
 
     ###CONFIG
     instance_type = 't2.nano' # eg: t2.nano
-    ami_id = 'ami-0e8123b02c9fbf08b' # eg: ami-0e8123b02c9fbf08b
+    ami_id = 'ami-00178b8a98ead1f2d' # eg: ami-0e8123b02c9fbf08b
     key_name = '' # without .pem suffix
     iam_role = 'Admin' # role name
     script_name = 'sample_script.py'
